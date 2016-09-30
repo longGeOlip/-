@@ -1,0 +1,322 @@
+html,
+body,
+div,
+p,
+span,
+a,
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input,
+ul,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.my {
+  width: 100%;
+}
+.header {
+  height: 4.21875rem;
+  background-color: #ffd600;
+}
+.header .headerList {
+  display: inline-block;
+  width: 6.3125rem;
+  height: 3.15625rem;
+  font-size: 0;
+}
+.header .headerList dt {
+  vertical-align: top;
+  display: inline-block;
+  width: 1.90625rem;
+  height: 1.90625rem;
+  margin-left: 0.46875rem;
+  margin-top: 0.65625rem;
+}
+.header .headerList dt img {
+  width: 100%;
+  height: 100%;
+}
+.header .headerList dd {
+  margin-top: 0.625rem;
+  display: inline-block;
+  width: 3.90625rem;
+  height: 1.90625rem;
+  padding-left: 0.40625rem;
+  box-sizing: border-box;
+}
+.header .headerList dd .phoneNum {
+  display: inline-block;
+  width: 3.90625rem;
+  height: 0.859375rem;
+  color: white;
+  line-height: 0.859375rem;
+  font-size: 0.46875rem;
+  font-weight: bold;
+}
+.header .headerList dd .register {
+  display: inline-block;
+}
+.header .headerList dd .register span {
+  color: #ed7a45;
+  font-size: 0.28125rem;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 0.90625rem;
+  margin-top: 0.3125rem;
+}
+.header .headerList dd .register img {
+  width: 2.640625rem;
+  height: 0.90625rem;
+}
+.header .right {
+  display: inline-block;
+  width: 0.359375rem;
+  height: 0.625rem;
+  float: right;
+  margin-top: 1.25rem;
+  margin-right: 0.59375rem;
+}
+.collect {
+  font-size: 0;
+  height: 1.40625rem;
+  background-color: rgba(240, 240, 240, 0.4);
+  margin-top: -1.09375rem;
+}
+.collect div {
+  display: inline-block;
+  width: 4.90769231rem;
+  height: 0.71875rem;
+  margin-top: 0.203125rem;
+  padding-left: 1.28125rem;
+  box-sizing: border-box;
+}
+.collect div img {
+  vertical-align: top;
+  width: 0.546875rem;
+  height: 0.546875rem;
+}
+.collect div span {
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.390625rem;
+  color: white;
+  font-size: 0.375rem;
+  margin-top: 0.078125rem;
+  margin-left: 0.390625rem;
+}
+.collect .commodity {
+  border-right: 2px solid white;
+}
+.indent {
+  height: 1.5625rem;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0;
+}
+.indent .myIndent {
+  display: inline-block;
+  width: 2.25rem;
+  height: 0.515625rem;
+  line-height: 0.515625rem;
+  text-align: center;
+  font-size: 0.375rem;
+  margin-left: 0.46875rem;
+  margin-top: 0.5625rem;
+}
+.indent div {
+  float: right;
+  margin-top: 0.59375rem;
+  margin-right: 0.46875rem;
+  font-size: 0;
+  width: 2.96875rem;
+}
+.indent div span {
+  text-align: center;
+  display: inline-block;
+  width: 2.578125rem;
+  height: 0.46875rem;
+  line-height: 0.46875rem;
+  font-size: 0.375rem;
+  color: #999999;
+}
+.indent div img {
+  vertical-align: center;
+  width: 0.171875rem;
+  height: 0.328125rem;
+}
+.noPay {
+  height: 2.265625rem;
+}
+.noPay ul {
+  font-size: 0;
+}
+.noPay ul li {
+  font-size: 0;
+  height: 2.265625rem;
+  display: inline-block;
+  width: 2.5rem;
+}
+.noPay ul li div {
+  width: 0.59375rem;
+  height: 0.59375rem;
+  margin-left: 0.984375rem;
+  margin-top: 0.703125rem;
+}
+.noPay ul li div img {
+  width: 100%;
+  height: 100%;
+}
+.noPay ul li span {
+  text-align: center;
+  width: 2.5rem;
+  margin-top: 0.3125rem;
+  display: inline-block;
+  line-height: 0.40625rem;
+  font-size: 0.375rem;
+}
+.void {
+  height: 0.3125rem;
+  background-color: #efefef;
+}
+.markerShop {
+  height: 3.171875rem;
+  border-bottom: 1px solid #efefef;
+}
+.markerShop ul {
+  font-size: 0;
+}
+.markerShop ul li {
+  font-size: 0;
+  width: 2.5rem;
+  height: 3.171875rem;
+  display: inline-block;
+}
+.markerShop ul li div {
+  width: 0.9375rem;
+  height: 0.859375rem;
+  margin-left: 0.8125rem;
+  margin-top: 0.984375rem;
+}
+.markerShop ul li div img {
+  width: 100%;
+  height: 100%;
+}
+.markerShop ul li span {
+  display: inline-block;
+  margin-top: 0.15625rem;
+  width: 100%;
+  text-align: center;
+  line-height: 0.40625rem;
+  font-size: 0.375rem;
+}
+.aboout {
+  height: 3.171875rem;
+  width: 100%;
+}
+.aboout ul li {
+  font-size: 0;
+  width: 2.5rem;
+  height: 3.171875rem;
+  display: inline-block;
+}
+.aboout ul li div {
+  width: 0.9375rem;
+  height: 0.859375rem;
+  margin-left: 0.8125rem;
+  margin-top: 0.984375rem;
+}
+.aboout ul li div img {
+  width: 100%;
+  height: 100%;
+}
+.aboout ul li span {
+  display: inline-block;
+  margin-top: 0.15625rem;
+  width: 100%;
+  text-align: center;
+  line-height: 0.40625rem;
+  font-size: 0.375rem;
+}
+.footer {
+  height: 1.609375rem;
+  width: 100%;
+  background-color: #f6f6f6;
+  position: fixed;
+  bottom: 0;
+}
+.footer ul {
+  font-size: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer ul li {
+  display: inline-block;
+  width: 1.984375rem;
+}
+.footer ul li div {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin: 0.234375rem 0 0.0625rem 0.65625rem;
+}
+.footer ul li .itemIcon1 {
+  background: url("../image/footer1.png") no-repeat;
+  background-size: 100%;
+}
+.footer ul li .itemIcon2 {
+  background: url("../image/footer2.png") no-repeat;
+  background-size: 100%;
+}
+.footer ul li .itemIcon3 {
+  background: url("../image/footer4.png") no-repeat;
+  background-size: 100%;
+}
+.footer ul li .itemIcon4 {
+  background: url("../image/footer4.png") no-repeat;
+  background-size: 100%;
+}
+.footer ul li .itemIcon5 {
+  background: url("../image/footer5.png") no-repeat;
+  background-size: 100%;
+}
+.footer ul li p {
+  font-size: 0.34375rem;
+  color: #777777;
+  line-height: 0.71875rem;
+  text-align: center;
+}
+.footer .barItem4 {
+  position: relative;
+}
+.footer .barItem4 span {
+  position: absolute;
+  left: 1.328125rem;
+  top: 0;
+  display: inline-block;
+  width: 0.625rem;
+  line-height: 0.625rem;
+  background-color: #ff4400;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.25rem;
+  text-align: center;
+}
+.blankSpace {
+  height: 1.609375rem;
+}

@@ -1,0 +1,340 @@
+html,
+body,
+div,
+p,
+span,
+a,
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input,
+ul,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.fresh {
+  width: 100%;
+  background-color: #eeeef0;
+}
+.fresh .header {
+  width: 100%;
+  height: 1.421875rem;
+  background-color: #f9fafd;
+  border-bottom: 1px solid #e0e0e0;
+  line-height: 1.421875rem;
+  text-align: center;
+  font-size: 0.4375rem;
+  font-weight: bold;
+}
+.fresh .nav {
+  width: 100%;
+  height: 2.125rem;
+  border-top: 0.015625rem solid #a4a4a4;
+  border-bottom: 0.015625rem solid #a4a4a4;
+  margin-top: 0.15625rem;
+  background-color: white;
+}
+.fresh .nav ul {
+  height: 1.046875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fresh .nav ul li {
+  display: inline-block;
+  font-size: 0.375rem;
+  width: 1.65625rem;
+  text-align: center;
+  height: 1.046875rem;
+  line-height: 1.046875rem;
+  color: #898989;
+  font-weight: bold;
+}
+.fresh .nav ul:first-of-type {
+  border-bottom: 2px solid #d1d1d1;
+}
+.fresh .nav ul:first-of-type li:first-of-type {
+  border-bottom: 2px solid #595656;
+  color: #595656;
+  font-weight: bolder;
+}
+.fresh .fruitList {
+  width: 100%;
+  height: 11.875rem;
+  border-top: 1px solid #a0a0a0;
+  margin-top: 0.25rem;
+  background-color: #ffffff;
+}
+.fresh .fruitList h2 {
+  border-bottom: 2px solid #cccccc;
+  font-size: 0;
+  height: 0.9375rem;
+}
+.fresh .fruitList h2 span {
+  display: inline-block;
+  width: 2.34375rem;
+  text-align: center;
+  font-size: 0.375rem;
+  color: #878787;
+  line-height: 0.375rem;
+  border-left: 10px solid #2baefe;
+  margin-left: 0.265625rem;
+  margin-top: 0.296875rem;
+}
+.fresh .fruitList ul {
+  font-size: 0;
+}
+.fresh .fruitList ul li:first-of-type {
+  height: 3.5rem;
+  border-bottom: 2px solid #cccccc;
+}
+.fresh .fruitList ul li:first-of-type .infoList_img {
+  vertical-align: top;
+  display: inline-block;
+  width: 3.125rem;
+  height: 2.421875rem;
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+  background: url("../image/20160121090716_775172.jpg") no-repeat center;
+  background-size: 100%;
+}
+.fresh .fruitList ul li:first-of-type .info {
+  position: relative;
+  width: 4.71875rem;
+  height: 100%;
+  display: inline-block;
+  margin-left: 0.75rem;
+  margin-top: 0.40625rem;
+}
+.fresh .fruitList ul li:first-of-type .info p {
+  font-size: 0.40625rem;
+  width: 4.296875rem;
+  height: 1.25rem;
+  color: #7a7a7a;
+  line-height: 0.59375rem;
+}
+.fresh .fruitList ul li:first-of-type .info span {
+  display: inline-block;
+  width: 0.78125rem;
+  height: 0.4375rem;
+  margin-top: 0.703125rem;
+}
+.fresh .fruitList ul li:first-of-type .info span .yuan {
+  display: inline-block;
+  font-size: 0.28125rem;
+  color: #f1361d;
+}
+.fresh .fruitList ul li:first-of-type .info span .price {
+  display: inline-block;
+  width: 0.59375rem;
+  line-height: 0.4375rem;
+  font-size: 0.40625rem;
+  color: #f1361d;
+  font-weight: bolder;
+}
+.fresh .fruitList ul li:first-of-type .info .addGodds {
+  width: 1.15625rem;
+  height: 1.15625rem;
+  position: absolute;
+  left: 3.125rem;
+  top: 1.5625rem;
+  background: url("../image/cart-7f275713.png") no-repeat center;
+  background-size: 100%;
+}
+.fresh .fruitList ul li:nth-of-type(2) {
+  height: 3.5rem;
+  border-bottom: 2px solid #cccccc;
+}
+.fresh .fruitList ul li:nth-of-type(2) .infoList_img {
+  vertical-align: top;
+  display: inline-block;
+  width: 3.125rem;
+  height: 2.421875rem;
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+  background: url("../image/20160223184124_996942.jpg") no-repeat center;
+  background-size: 100%;
+}
+.fresh .fruitList ul li:nth-of-type(2) .info {
+  position: relative;
+  width: 4.71875rem;
+  height: 100%;
+  display: inline-block;
+  margin-left: 0.75rem;
+  margin-top: 0.40625rem;
+}
+.fresh .fruitList ul li:nth-of-type(2) .info p {
+  font-size: 0.40625rem;
+  width: 4.296875rem;
+  height: 1.25rem;
+  color: #7a7a7a;
+  line-height: 0.59375rem;
+}
+.fresh .fruitList ul li:nth-of-type(2) .info span {
+  display: inline-block;
+  width: 0.78125rem;
+  height: 0.4375rem;
+  margin-top: 0.703125rem;
+}
+.fresh .fruitList ul li:nth-of-type(2) .info span .yuan {
+  display: inline-block;
+  font-size: 0.28125rem;
+  color: #f1361d;
+}
+.fresh .fruitList ul li:nth-of-type(2) .info span .price {
+  display: inline-block;
+  width: 0.59375rem;
+  line-height: 0.4375rem;
+  font-size: 0.40625rem;
+  color: #f1361d;
+  font-weight: bolder;
+}
+.fresh .fruitList ul li:nth-of-type(2) .info .addGodds {
+  width: 1.15625rem;
+  height: 1.15625rem;
+  position: absolute;
+  left: 3.125rem;
+  top: 1.5625rem;
+  background: url("../image/cart-7f275713.png") no-repeat center;
+  background-size: 100%;
+}
+.fresh .fruitList ul li:nth-of-type(3) {
+  height: 3.5rem;
+  border-bottom: 2px solid #cccccc;
+}
+.fresh .fruitList ul li:nth-of-type(3) .infoList_img {
+  vertical-align: top;
+  display: inline-block;
+  width: 3.125rem;
+  height: 2.421875rem;
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+  background: url("../image/20160116141751_938501.jpg") no-repeat center;
+  background-size: 100%;
+}
+.fresh .fruitList ul li:nth-of-type(3) .info {
+  position: relative;
+  width: 4.71875rem;
+  height: 100%;
+  display: inline-block;
+  margin-left: 0.75rem;
+  margin-top: 0.40625rem;
+}
+.fresh .fruitList ul li:nth-of-type(3) .info p {
+  font-size: 0.40625rem;
+  width: 4.296875rem;
+  height: 1.25rem;
+  color: #7a7a7a;
+  line-height: 0.59375rem;
+}
+.fresh .fruitList ul li:nth-of-type(3) .info span {
+  display: inline-block;
+  width: 0.78125rem;
+  height: 0.4375rem;
+  margin-top: 0.703125rem;
+}
+.fresh .fruitList ul li:nth-of-type(3) .info span .yuan {
+  display: inline-block;
+  font-size: 0.28125rem;
+  color: #f1361d;
+}
+.fresh .fruitList ul li:nth-of-type(3) .info span .price {
+  display: inline-block;
+  width: 0.59375rem;
+  line-height: 0.4375rem;
+  font-size: 0.40625rem;
+  color: #f1361d;
+  font-weight: bolder;
+}
+.fresh .fruitList ul li:nth-of-type(3) .info .addGodds {
+  width: 1.15625rem;
+  height: 1.15625rem;
+  position: absolute;
+  left: 3.125rem;
+  top: 1.5625rem;
+  background: url("../image/cart-7f275713.png") no-repeat center;
+  background-size: 100%;
+}
+.fresh .footer {
+  height: 1.609375rem;
+  width: 100%;
+  background-color: #f6f6f6;
+  position: fixed;
+  bottom: 0;
+}
+.fresh .footer ul {
+  font-size: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.fresh .footer ul li {
+  display: inline-block;
+  width: 1.984375rem;
+}
+.fresh .footer ul li div {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin: 0.234375rem 0 0.0625rem 0.65625rem;
+}
+.fresh .footer ul li .itemIcon1 {
+  background: url("../image/footer1.png") no-repeat;
+  background-size: 100%;
+}
+.fresh .footer ul li .itemIcon2 {
+  background: url("../image/footer2.png") no-repeat;
+  background-size: 100%;
+}
+.fresh .footer ul li .itemIcon3 {
+  background: url("../image/footer4.png") no-repeat;
+  background-size: 100%;
+}
+.fresh .footer ul li .itemIcon4 {
+  background: url("../image/footer4.png") no-repeat;
+  background-size: 100%;
+}
+.fresh .footer ul li .itemIcon5 {
+  background: url("../image/footer5.png") no-repeat;
+  background-size: 100%;
+}
+.fresh .footer ul li p {
+  font-size: 0.34375rem;
+  color: #777777;
+  line-height: 0.71875rem;
+  text-align: center;
+}
+.fresh .footer .barItem4 {
+  position: relative;
+}
+.fresh .footer .barItem4 span {
+  position: absolute;
+  left: 1.328125rem;
+  top: 0;
+  display: inline-block;
+  width: 0.625rem;
+  line-height: 0.625rem;
+  background-color: #ff4400;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.25rem;
+  text-align: center;
+}
+.blankSpace {
+  height: 1.609375rem;
+}
